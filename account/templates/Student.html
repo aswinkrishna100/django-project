@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admission</title>
+</head>
+<body>
+<form action=""method="post">
+  {% csrf_token %}
+  <table border="1"align="center" cellpadding="10" style="...">
+    <tr>
+      <td>FirstName</td>
+      <td><input type="text"name="txtFirstName" id=""></td>
+    </tr>
+    <tr>
+      <td>Lastname</td>
+      <td><input type="text"name="txtLastName" id=""></td>
+    </tr>
+    <tr>
+      <td>Course</td>
+      <td><input type="text"name="txtCourse" id=""></td>
+    </tr>
+    <tr>
+      <td>Percentage</td>
+      <td><input type="text"name="txtPercentage" id=""></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="submit"name="btnsave"value="savestudent">
+      </td>
+    </tr>
+
+  </table>
+
+</form>
+</body>
+</html>
